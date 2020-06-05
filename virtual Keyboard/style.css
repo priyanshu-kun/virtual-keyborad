@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    line-height: 1.5rem;
+    box-sizing: border-box;
+}
+
+/* .wrapper {
+    margin-top: 3rem;
+} */
+
+.keyboard {
+    text-align: center ;
+}
+
+h1 {
+    color: rgb(119, 119, 134);
+}
+
+.btn {
+    width: 60px;
+    height: 60px;
+    background: rgb(255, 0, 15,0.8) !important;
+    border: none !important;
+    font-size: 2rem !important;
+    box-shadow: none !important;
+    transition: all 100ms ease-in ;
+    padding: 0;
+    padding-bottom: 5px !important;
+    margin: 10px 10px;
+}
+.btn:active {
+   box-shadow: 0 0 0 5px rgb(255, 0, 15,0.3) !important;
+   opacity: 0.5;
+}
+
+.feedback {
+    height: 10vh;
+    border: 1px solid rgba(0, 255, 34, 0.7);
+    border-radius: 10px;
+    padding-top: 32px;
+    
+}
+
+.capslock {
+    background-color: rgb(234, 0, 255) !important;
+}
+
+.wrapper_btn {
+    /* background: rgb(0, 255, 128) !important; */
+    width: 100%;
+    font: 1.2rem;
+    margin-top: 5rem;
+}
